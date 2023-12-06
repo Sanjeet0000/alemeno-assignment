@@ -1,0 +1,44 @@
+.search-bar {
+  margin-bottom: 0.5rem;
+}
+
+.search-bar input {
+  height: 30px;
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 1rem;
+  padding: 5px 10px;
+}
+
+.course-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 1rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #ccc;
+  text-decoration: none;
+}
+
+.description {
+  font-style: italic;
+  padding-left: 1rem;
+  font-weight: 400;
+}
+
+.course-heading {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 0 0.25rem 0;
+}
+
+.course-heading span {
+  color: red;
+}
+
+.no-result {
+  display: flex;
+  height: 300px;
+  width: 300px;
+  justify-content: center;
+  align-items: center;
+}

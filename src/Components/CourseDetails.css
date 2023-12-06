@@ -1,0 +1,50 @@
+.title-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.145);
+  padding-bottom: 20px;
+}
+
+.close-button {
+  text-decoration: none;
+}
+
+.course-thumbnail {
+  width: 200px;
+  background-color: rgba(255, 255, 255, 0.146);
+  border-radius: 10px;
+}
+
+.course-name-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100px;
+  row-gap: 30px;
+}
+
+.schedule,
+.prerequisites {
+  font-weight: 300;
+}
+
+.list-items {
+  align-self: flex-start;
+  padding-left: 10%;
+}
+
+.enroll-button {
+  text-decoration: none;
+  width: 80%;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px white;
+}
+
+@media (max-width: 560px) {
+  .title-container {
+    flex-direction: column;
+  }
+}

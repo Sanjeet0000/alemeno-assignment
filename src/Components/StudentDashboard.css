@@ -1,0 +1,56 @@
+.sub-heading {
+  font-size: 20px;
+  font-weight: 600;
+  padding: 10px;
+}
+
+.courses-list {
+  display: flex;
+  font-size: 18px;
+  flex-direction: column;
+  gap: 20px;
+  padding: 10px 4vw;
+  box-shadow: 0 0 5px rgba(255, 255, 255, 0.16);
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.courses {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  padding: 10px 0;
+}
+
+.course-detail {
+  display: flex;
+  gap: 20px;
+}
+
+.no-courses {
+  font-size: 20px;
+  padding: 100px;
+}
+
+.sub-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.date-progress-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.completed {
+  text-align: center;
+}
+
+@media (max-width: 560px) {
+  .course-detail {
+    flex-direction: column;
+    gap: 0;
+  }
+}
