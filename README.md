@@ -2,6 +2,10 @@
 
 # https://alemeno0.netlify.app/
 
+used Firebase Realtime Database to store and fetch courses data. 
+
+![database](https://raw.githubusercontent.com/Sanjeet0000/alemeno-assignment/main/public/screenshot/database.jpg)
+
 Do "npm install" first to install relevant packages.
 
 
